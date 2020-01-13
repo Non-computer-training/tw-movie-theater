@@ -63,11 +63,7 @@
 
     ajax({
       url: BASIC_URL + '/v2/movie/subject/' + movieId,
-      method: // request method
-      data: {
-        apikey: '0df993c66c0c636e29ecbb5344252a4a'
-        // other request params
-      },
+      method:'GET',
       // other 
     });
   ```
